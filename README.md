@@ -23,7 +23,7 @@
 
 |URL|전송 방법|
 |------|:---:|
-|http://www.pointpay.im/landing/main|GET|
+|https://ssl.pointpay.im/landing/main|GET|
 
 |전달 파라미터|내용|필수여부|
 |------|---|:---:|
@@ -38,7 +38,7 @@
 
  **예시)**
  ```
-http://www.pointpay.im/landing/main?a_code=매체코드&user_id=매체회원아이디&ui_type=UI타입
+https://ssl.pointpay.im/landing/main?a_code=매체코드&user_id=매체회원아이디&ui_type=UI타입
  ```
 <br/>
 
@@ -50,7 +50,7 @@ JS를 통한 팝업창 오픈 방식입니다.
 
 |URL|전송 방법|
 |------|:---:|
-|http://www.pointpay.im/popup/main|GET|
+|https://ssl.pointpay.im/popup/main|GET|
 
 |전달 파라미터|내용|필수여부|
 |------|---|:---:|
@@ -65,7 +65,7 @@ JS를 통한 팝업창 오픈 방식입니다.
  **예시)**
 ```js
 window.open(
-'http://www.pointpay.im/popup/main?a_code=매체코드&user_id=매체회원아이디&pu_type=팝업타입', 
+'https://ssl.pointpay.im/popup/main?a_code=매체코드&user_id=매체회원아이디&pu_type=팝업타입', 
 'width=510, height=800, resizable=0, scrollbars=no, status=0, titlebar=0, toolbar=0, left=435, top=100' 
 );
 ```
