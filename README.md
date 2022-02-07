@@ -21,9 +21,10 @@
 
 ## 랜딩페이지
 
-|URL|전송 방법|
-|------|:---:|
-|https://ssl.pointpay.im/landing/main|GET|
+|서버|URL|전송 방법|
+|----|------|:---:|
+|개발|http://dev.pointpay.im/landing/main|GET|
+|상용|https://ssl.pointpay.im/landing/main|GET|
 
 |전달 파라미터|내용|필수여부|
 |------|---|:---:|
@@ -48,9 +49,10 @@ https://ssl.pointpay.im/landing/main?a_code=매체코드&user_id=매체회원아
 
 JS를 통한 팝업창 오픈 방식입니다.
 
-|URL|전송 방법|
-|------|:---:|
-|https://ssl.pointpay.im/popup/main|GET|
+|서버|URL|전송 방법|
+|-----|------|:---:|
+|개발|http://dev.pointpay.im/popup/main|GET|
+|상용|https://ssl.pointpay.im/popup/main|GET|
 
 |전달 파라미터|내용|필수여부|
 |------|---|:---:|
